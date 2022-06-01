@@ -1,0 +1,103 @@
+[
+  {
+    "hatName": "Horizon Hat",
+    "imageUrl": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A5FXO_M19_hero",
+    "hatPrice": "25",
+    "colors": [
+                "#2874A6",
+                "#9FBCD0",
+                "#B45765",
+                "#262527"
+    ],
+    "tag": ""
+  },
+  {
+    "hatName": "Class V Brimmer",
+    "imageUrl": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A5FX4_55D_hero",
+    "hatPrice": "35",
+    "colors": [
+                "#C5E679",
+                "#8A78B0",
+                "#CD2E91"
+    ],
+    "tag": "New"
+  },
+  {
+    "hatName": "Horizon Hat",
+    "imageUrl": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A5FXO_JK3_hero",
+    "hatPrice": "25",
+    "colors": [
+                "#262527",
+                "#9FBCD0",
+                "#2874A6",
+                "#B45765"
+    ],
+    "tag": ""
+  },
+  {
+    "hatName": "Horizon Hat",
+    "imageUrl": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A5FXO_3R3_hero",
+    "hatPrice": "25",
+    "colors": [
+                "#9FBCD0",
+                "#262527",
+                "#2874A6",
+                "#B45765"
+    ],
+    "tag": ""
+  },
+  {
+    "hatName": "Horizon Hat",
+    "imageUrl": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A5FXO_396_hero",
+    "hatPrice": "25",
+    "colors": [
+                "#B45765",
+                "#9FBCD0",
+                "#262527",
+                "#2874A6"
+    ],
+    "tag": ""
+  },
+  {
+    "hatName": "Class V Brimmer",
+    "imageUrl": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A5FX4_NXT_hero",
+    "hatPrice": "35",
+    "colors": [
+                "#8A78B0",
+                "#CD2E91",
+                "#C5E679"
+    ],
+    "tag": ""
+  },
+  {
+    "hatName": "Class V Brimmer",
+    "imageUrl": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A5FX4_55J_hero",
+    "hatPrice": "35",
+    "colors": [
+                "#CD2E91",
+                "#8A78B0",
+                "#C5E679"
+    ],
+    "tag": ""
+  },
+  {
+    "hatName": "TNF™ Logo Box Cuffed Beanie",
+    "imageUrl": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A3FMV_ZCV_hero",
+    "hatPrice": "26",
+    "colors": [
+                "#262527",
+                "#0E8680"
+    ],
+    "tag": "New"
+  },
+  {
+    "hatName": "TNF™ Logo Box Cuffed Beanie",
+    "imageUrl": "https://images.thenorthface.com/is/image/TheNorthFace/NF0A3FMV_JK3_hero",
+    "hatPrice": "26",
+    "colors": [
+                "#262527",
+                "#0E8680"
+    ],
+    "tag": "New"
+  }
+]

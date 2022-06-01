@@ -1,0 +1,120 @@
+/* HTML Selectors */
+article {
+    margin: 10px;
+    max-width: 300px
+}
+
+article h3, article h4 {
+    padding: 0 1rem;
+    margin: 0.2rem 0;
+    text-align: left;
+}
+
+body {
+    font-family: 'Lato', cursive;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 90%;
+}
+
+main {
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:first-child {
+    display: block;
+}
+
+nav ul li {
+    display: none;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #efefef;
+    color: black;
+}
+
+section {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+#hats {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/* Class Selectors */
+.active {
+    background-color: white;
+    color: black;
+}
+
+.open li {
+    display: block;
+}
+
+.controls {
+    display: flex;
+}
+
+.controls label {
+    margin: 0 0.5rem;
+}
+
+
+/* Media Queries */
+@media only screen and (min-width: 32.5em) {
+
+    #hats {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    #hats {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

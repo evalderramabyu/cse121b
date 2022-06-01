@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li>Course Project - Own API</li>
+        </ul>
+    </nav>
+    <header>
+        <h1></h1>
+    </header>
+    <main>
+        <section>
+            <h2>Kids Hats</h2>
+            <div class="controls">
+              <div class="sorting">
+                Sort by: 
+                <select id="sortBy">
+                    <option value="">- Select an option -</option>
+                    <option value="hatNameAscending">Hat Name Ascending</option>
+                    <option value="hatNameDescending">Hat Name Descending</option>
+                    <option value="hatPriceAscending">Hat Price Ascending</option>
+                    <option value="hatPriceDescending">Hat Price Descending</option>
+                </select>
+              </div>
+              <div class="filtering">
+                Price: 
+                <label><input class="priceRange" data-min='0' data-max='25' type="checkbox" value='true'>$0 - $25</label>
+                <label><input class="priceRange" data-min='26' data-max='50' type="checkbox">$26 - $50</label>
+              </div>
+            </div>
+            <div id="hats">
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Course Project
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
